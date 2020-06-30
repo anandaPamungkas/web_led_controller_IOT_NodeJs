@@ -1,0 +1,25 @@
+{
+  "name": "led_web_controlled",
+  "version": "1.0.0",
+  "description": "controlling led by web interface (nodeMCU, mqtt, nodejs)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "mqtt",
+    "nodeMCU",
+    "iot"
+  ],
+  "author": "Ananda",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.1.0"
+  }
+}
